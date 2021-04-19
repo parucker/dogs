@@ -12,4 +12,6 @@ def authenticate_user():
 
 @app.route('/api/user', methods=['GET'])
 def test():
+    #TODO
+    #-Return just the necessary data with with the exact format
     return helper.token_required_test()

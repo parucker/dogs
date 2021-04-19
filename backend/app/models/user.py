@@ -1,6 +1,11 @@
 import datetime
 from app import db, ma
 
+
+#TODO 
+#- CRUD
+#- Relationship with other tables
+
 class User(db.Model):
     id = db.Column(db.Integer(), primary_key=True, autoincrement=True)
     username = db.Column(db.String(20), unique=True, nullable=False)
