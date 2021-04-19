@@ -5,7 +5,7 @@ There are 2 options for back-end:
  - Flask Rest API with SQLAlchemy
  - Apidogs created by origamid
 	 
- You can choose between them on frontend/api.js, just comment or uncomment the disered line (first one is the apidogs and the second is the flask).
+ You can choose between them on frontend/api.js, just comment or uncomment the desired line (first one is the apidogs and the second is the flask).
 
 ## Flask Rest API
 This one is **under develop** and only have the register backend with a simple jwt authentication working
@@ -23,7 +23,7 @@ If you choose to run the Flask API here is the steps:
 
 ## Dogs API
 
-For the **full experience** use this backend. For it, you just need to comment the second line on /frontend/src/api.js
+For the **full experience** use this backe-nd. For it, you just need to comment the second line on /frontend/src/api.js
 
 # Front-end
 
